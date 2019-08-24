@@ -1,0 +1,6 @@
+{"_id":{"$oid":"5d5ea244603f7d5a714f6ea1"},"fname":"Ammar","lname":"Saad","class":"B","age":25.0,"technologies":["PHP","MongoDB"]}
+{"_id":{"$oid":"5d5ea244603f7d5a714f6ea3"},"fname":"Jhon","lname":"williams","class":"A","age":32.0,"technologies":["Python","MongoDB"]}
+{"_id":{"$oid":"5d5ea2c5603f7d5a714f6ea4"},"fname":"Ahmad","lname":"Omar","class":"A","age":27.0}
+{"_id":{"$oid":"5d5ea2ec603f7d5a714f6ea5"},"fname":"Abeer","lname":"Jaafreh","class":"A","age":25.0}
+{"_id":{"$oid":"5d6169cc603f7d5a714f6ea6"},"fname":"Steve","lname":"Rayan","class":"C","age":18.0,"technologies":["C#","mySql"]}
+{"_id":{"$oid":"5d616a438229386939e4fe75"},"fname":"Mohammad","lname":"Ali","class":"A","age":18.0,"technologies":["PHP","mySql"]}
