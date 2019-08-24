@@ -1,0 +1,26 @@
+>use students 
+>db.students.find()
+>db.students.insertMany({{
+"fname" : "Ahmad","lname":"Omar","class":"A","age" :25,"technologies":["PHP","mySql"]}, 
+{"fname" : "Ammar","lname":"Saad","class":"B","age" :23,"technologies":["PHP","MongoDB"]} ,
+{"fname" : "Steve","lname":"Rayan","class":"C","age" :18,"technologies":["C#","mySql"]},
+ {"fname" : "Jhon","lname":"williams","class":"A","age" :30, "technologies":["Python","MongoDB"]}})
+
+>db.students.insert({"fname" : "Abeer","lname":"Jaafreh","class":"A","age" :23})
+
+>db.students.find().pretty()
+>db.students.update({},{$inc:{age:1}},{multi:true})
+
+>db.students.update({'name':'ADAM'},{$set:{'calss':'A',technologies:['php','mySQL']}},{multi:true})
+
+>db.students.deleteOne({'class':'A'})
+
+>db.students.deleteMany({'class':'C'})
+
+>db.students.find({age:{$lt:20}}).pretty()
+
+>db.students.find({age:{$gt:30}}).pretty()
+
+>db.students.find({class:{$eq:'B'}}).pretty()
+
+>db.students.find().sort({age:-1}).pretty()
